@@ -5,7 +5,7 @@
   <!-- import CSS -->
   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
-<body style="background: url(./static/2222.jpg);background-repeat: repeat;background-size: 50% 500%;">
+<body style="background: url(./static/2222.jpg);background-repeat: repeat;background-size: 300px 500px;height: 10000px;">
   <div id="app" >
         <el-row>
             <el-button @click="dialogVisible = true" style=" display: block;padding: 3px 0;width: 100%;height: 100px;" type="danger" >点击</el-button>
@@ -13,7 +13,7 @@
         <el-row>
             <el-button @click="hi" style=" display: block;padding: 3px 0;width: 100%;height: 100px;" type="primary" >点击（持续5秒）</el-button>
         </el-row>
-        <div style="background-color: blueviolet;height: 300px;padding-top: 50px;">
+        <div style="background-color: blueviolet;height: 300px;padding-top: 50px;font-size: 50px;">
            <el-collapse v-model="activeNames" @change="handleChange">
           <el-collapse-item title="saoqing" name="1">
            <el-image :src="urls[0]"></el-image>
